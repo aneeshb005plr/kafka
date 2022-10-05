@@ -37,7 +37,8 @@ Ans: https://github.com/aneeshb005plr/kafka/blob/master/producer.py
         apply "earliest" offset property in both consumers and run these two consumers from two different terminals. Calculate how many records each consumer
         consumed and printed on the terminal
 
-        Ans:
+        Ans: https://github.com/aneeshb005plr/kafka/blob/master/kafka_consumer_1_group_3.py   - Message Count: 24964
+             https://github.com/aneeshb005plr/kafka/blob/master/kafka_consumer_2_group_3.py   - Message Count: 49854
         
 7. Once above questions are done, write another kafka consumer to read data from kafka topic and from the consumer code create one csv file "output.csv"
    and append consumed records output.csv file
