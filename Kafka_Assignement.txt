@@ -17,10 +17,10 @@ Ans: done
    make sure schema is not hardcoded in the producer code, read the latest version of schema and schema_str from schema registry and use it for
    data serialization.
 
-Ans:   
+Ans:   https://github.com/aneeshb005plr/kafka/blob/master/producer.py
 
 5. From producer code, publish data in Kafka Topic one by one and use dynamic key while publishing the records into the Kafka Topic
-Ans:
+Ans: https://github.com/aneeshb005plr/kafka/blob/master/producer.py
 
 6. Write kafka consumer code and create two copies of same consumer code and save it with different names (kafka_consumer_1.py & kafka_consumer_2.py), 
    again make sure lates schema version and schema_str is not hardcoded in the consumer code, read it automatically from the schema registry to desrialize the data. 
@@ -30,6 +30,8 @@ Ans:
         consumed and printed on the terminal
 
        Ans: 
+       https://github.com/aneeshb005plr/kafka/blob/master/kafka_consumer_1.py   - Message Count: 74818
+       https://github.com/aneeshb005plr/kafka/blob/master/kafka_consumer_2.py   - Message Count: 74818
 
     b.) Use "group.id" property in consumer config for both consumers and mention same group_ids in kafka_consumer_1.py & kafka_consumer_2.py,
         apply "earliest" offset property in both consumers and run these two consumers from two different terminals. Calculate how many records each consumer
