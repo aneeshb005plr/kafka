@@ -42,3 +42,6 @@ Ans: https://github.com/aneeshb005plr/kafka/blob/master/producer.py
         
 7. Once above questions are done, write another kafka consumer to read data from kafka topic and from the consumer code create one csv file "output.csv"
    and append consumed records output.csv file
+
+   Ans: https://github.com/aneeshb005plr/kafka/blob/master/kafka_consumer_to_csv.py
+       https://github.com/aneeshb005plr/kafka/blob/master/output.csv
